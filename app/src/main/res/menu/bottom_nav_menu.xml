@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <item-->
+<!--        android:id="@+id/userDashboardFragment"-->
+<!--        android:icon="@drawable/ic_android_green_24dp"-->
+<!--        android:title="@string/title_my_account" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/storesListFragment"-->
+<!--        android:icon="@drawable/ic_store_list_24"-->
+<!--        android:title="@string/store_list" />-->
+<!--    <item-->
+<!--        android:id="@+id/itemScanFragment"-->
+<!--        android:icon="@drawable/ic_baseline_search_24"-->
+<!--        android:title="@string/title_item_scan" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/storeMapsFragment"-->
+<!--        android:icon="@drawable/ic_baseline_map_24"-->
+<!--        android:title="@string/stores_map" />-->
+
+
+
+<!--    <item-->
+<!--        android:id="@+id/tempAddClothFragment"-->
+<!--        android:icon="@drawable/ic_launcher_background"-->
+<!--        android:title="temp add" />-->
+
+    <item
+        android:id="@+id/lobbyFragment"
+        android:icon="@drawable/script_icon"
+        android:title="Lobby" />
+
+    <item
+        android:id="@+id/gameSessionFragment"
+        android:icon="@drawable/quest_icon"
+        android:title="Quest" />
+
+    <item
+        android:id="@+id/userStatusFragment"
+        android:icon="@drawable/order_status_icon"
+        android:title="status" />
+
+
+
+
+
+
+</menu>

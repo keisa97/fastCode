@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/lobbyFragment">
+
+<!--    <fragment-->
+<!--        android:id="@+id/userDashboardFragment"-->
+<!--        android:name="com.keisardevs.myapplication.ui.user.UserDashboardFragment"-->
+<!--        android:label="@string/title_my_account"-->
+<!--        tools:layout="@layout/user_dashboard_fragment" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/storesListFragment"-->
+<!--        android:name="com.keisardevs.myapplication.ui.StoresListFragment"-->
+<!--        android:label="@string/store_list"-->
+<!--        tools:layout="@layout/fragment_stores_list_list" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/storeMapsFragment"-->
+<!--        android:name="com.keisardevs.myapplication.ui.StoreMapsFragment"-->
+<!--        android:label="@string/stores_map"-->
+<!--        tools:layout="@layout/fragment_store_maps" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/itemScanFragment"-->
+<!--        android:name="com.keisardevs.myapplication.ui.ScanItemFragment"-->
+<!--        android:label="@string/title_item_scan"-->
+<!--        tools:layout="@layout/scan_item_fragment" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/tempAddClothFragment"-->
+<!--        android:name="com.keisardevs.myapplication.ui.TempAddClothFragment"-->
+<!--        android:label="fragment_temp_add_cloth"-->
+<!--        tools:layout="@layout/fragment_temp_add_cloth" />-->
+    <activity
+        android:id="@+id/nfcActivity"
+        android:name="com.keisardevs.myapplication.nfc.NfcActivity"
+        android:label="activity_nfc"
+        tools:layout="@layout/activity_nfc" />
+    <fragment
+        android:id="@+id/gameSessionFragment"
+        android:name="com.keisardevs.myapplication.ui.newui.GameSessionFragment"
+        android:label="fragment_game_session"
+        tools:layout="@layout/fragment_game_session" />
+    <fragment
+        android:id="@+id/userStatusFragment"
+        android:name="com.keisardevs.myapplication.ui.newui.UserStatusFragment"
+        android:label="fragment_user_status"
+        tools:layout="@layout/fragment_user_status" />
+    <fragment
+        android:id="@+id/lobbyFragment"
+        android:name="com.keisardevs.myapplication.ui.newui.LobbyFragment"
+        android:label="fragment_lobby"
+        tools:layout="@layout/fragment_lobby" />
+</navigation>

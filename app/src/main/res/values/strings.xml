@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="facebook_app_id">1032649230508616</string>
+    <string name="fb_login_protocol_scheme">fb1032649230508616</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_my_account">My Account</string>
+    <string name="store_list">Stores</string>
+    <string name="title_item_scan">Scan</string>
+    <string name="stores_map">Map</string>
+    <string name="IncreaseScore">increaseScore</string>
+    <string name="DecreaseScore">decreaseScore</string>
+</resources>

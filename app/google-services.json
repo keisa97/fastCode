@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "69842735490",
+    "firebase_url": "https://signalvictory-4315e.firebaseio.com",
+    "project_id": "signalvictory-4315e",
+    "storage_bucket": "signalvictory-4315e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69842735490:android:88a1922d9ce0602c777f9b",
+        "android_client_info": {
+          "package_name": "com.keisardevs.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69842735490-v24gsp36se0vvt3u1iujcuau9kuhi8o0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.keisardevs.myapplication",
+            "certificate_hash": "87984e5e185341c655d21d597bcc87fe967c45c5"
+          }
+        },
+        {
+          "client_id": "69842735490-2mn2kv3417tauf0lulvo84kk2cfiq16e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPCQ1mhdI90bDceDVqK0n_08AZz9nJPGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69842735490-2mn2kv3417tauf0lulvo84kk2cfiq16e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

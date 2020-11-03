@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nfc.NfcActivity">
+
+    <TextView
+        android:id="@+id/textView_nfc_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NFC Tag ID"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_nfc_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NFC Tag ID"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/imageView_chest"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_nfc_activity" />
+
+    <ImageView
+        android:id="@+id/imageView_loot"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_chest"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_chest"
+        app:layout_constraintStart_toStartOf="@+id/imageView_chest"
+        app:layout_constraintTop_toTopOf="@+id/imageView_chest"
+        app:srcCompat="@drawable/app_logo" />
+</androidx.constraintlayout.widget.ConstraintLayout>
